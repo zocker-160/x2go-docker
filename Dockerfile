@@ -23,10 +23,6 @@ RUN apt-get install -y \
 # SSH login workaround
 RUN sed 's@session\s*required\s*pam_loginuid.so@session optional pam_loginuid.so@g' -i /etc/pam.d/sshd
 
-WORKDIR /data
-
-VOLUME /data
-
 EXPOSE 22
 
  
