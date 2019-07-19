@@ -1,4 +1,4 @@
-FROM zocker160/x2go-xfce:base
+FROM zocker160/x2go-xfce:base-nvidia
 
 MAINTAINER zocker-160
 
