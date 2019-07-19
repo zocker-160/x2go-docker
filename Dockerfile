@@ -29,5 +29,4 @@ VOLUME /data
 
 EXPOSE 22
 
-ENTRYPOINT /usr/sbin/sshd -D
  
